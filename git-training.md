@@ -385,6 +385,23 @@ to me:
 
 **Further Reading:** [How to see all the files that I need to update or conflict in Source Tree?](https://answers.atlassian.com/questions/37828/how-to-see-all-the-files-that-i-need-to-update-or-conflict-in-source-tree)
 
+##Branching Strategy##
+
+  Feature       Release        
+  Branches      Branches      Hotfixes       Master
+     |             |             |             |
+     o<------------|-------------|-------------o<-tag_1.0
+     |             |             |            /|
+     o             |             | __________/ |
+     |             |     bugfix->o/            |
+     0<------------|------------/|\___________ |
+     |             |             |            \|
+     o------------>o<-2.0_qa     |             o<-tag_1.1
+     |             |\            |             |
+     |             | \___________|____________>o<-tag_2.0
+     |             |             |             |
+
+
 ##Misc Advantages##
 
 ###Features Updates###

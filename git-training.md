@@ -1,4 +1,4 @@
-#Brunello Git Training#
+#Git Training#
 
 ##What is Git?##
 
